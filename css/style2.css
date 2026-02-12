@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.body{
+    width:  100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(../imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta{
+    background-color: transparent;
+    backdrop-filter: blur(40px) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 70%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: justify;
+    font-size: 16px;
+    box-shadow: #000000 0px 0px 10px;
+}
+
+.content{
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+#read_button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #700059;
+    font-weight: bold;
+    background-color: #ffb3f6;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.carta.active .content{
+    height: auto;
+}
+
+.cartinha{
+    height: 120px;
+    width: 120px;
+}
+
+.fts{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.datass{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 207, 246); 
+    margin-top: 30px;   
+    padding: 10px;
+    border: #ff7bf0 2px solid;
+    border-radius: 5px;
+}
+
+.dia{
+    font-size: 24px;
+    text-align: center;
+    color: #8f007e;
+}
+
+.texto{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    width: 350px;
+}
+
+.pedido{
+    text-align: center;
+}
+
+.button{
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    background-color: #d12abd;
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+    font-family: "Quicksand", sans-serif;
+}
+.a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.tituloFoto{
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: #8f007e;
+}
+
+.fotos{
+    width: 85vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.fotos2{
+    width: 85vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.fotos3{
+    width: 85vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hopi{
+    display: inline-block;    
+    animation: anima 20s linear infinite;
+}
+
+.aniversario{
+    display: inline-block;    
+    animation: anima 16s linear infinite;
+}
+
+.praia{
+    display: inline-block;    
+    animation: anima 8s linear infinite;
+}
+
+@keyframes anima{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+.buttonp{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    background-color: #ff7bf0;
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 10px;
+}
+
+.pedido{
+    background-color: rgb(255, 207, 246);
+    width: 80%;
+    margin-top: 25px;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: #000000 0px 0px 10px;
+}
+
+.textinho{
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.pedindo{
+    margin-bottom: 10px;
+}
+
+.pedindo h2{
+    margin-bottom: 10px;
+    font-family: "Rouge Script", cursive;
+    font-size: 43px;
+    color: #8f007e;
+    font-weight: 400;
+}

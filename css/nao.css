@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+body{
+    background-image: url(../imagens/fundo.png);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.aceito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #ff9af3, rgb(255, 207, 246));
+    height: 60%;
+    width: 80%;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+h1{
+    text-align: center;
+    font-size: 26px;
+}
+button{
+    margin-top: 25px;
+    height: 40px;
+    width: 215px;
+    font-size: 20px;
+    background-color: #d300bb;
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.AA{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif{
+    height: 250px;
+    border-radius: 10px;
+}
