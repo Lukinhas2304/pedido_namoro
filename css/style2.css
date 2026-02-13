@@ -13,6 +13,9 @@
     margin: 0;
     background-image: url(../imagens/fundo.png);
     min-height: 100dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container{
