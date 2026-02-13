@@ -12,8 +12,7 @@
     height: 100vh;
     margin: 0;
     background-image: url(../imagens/fundo.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    min-height: 100dvh;
 }
 
 .container{
@@ -211,4 +210,10 @@
     font-size: 43px;
     color: #8f007e;
     font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 }
