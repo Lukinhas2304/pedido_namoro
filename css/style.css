@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100dvh;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -73,3 +73,8 @@ a{
 
 }
 
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}
